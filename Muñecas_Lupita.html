@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Muñecas Lupitas</title>
+
+	<!-- Link de la font -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Css del sitio -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+	<script>
+
+		var d=new Date();
+		var nom;
+		document.write('Hoy es')
+		document.write(d.getDate());
+		nom=prompt ("Escriba su nombre");
+		alert ("Mucho gusto "+ nom);
+
+    </script>
+
+	<!-- Inicio de la cabecera -->
+
+<header>
+
+	<input type="checkbox" name="" id="toggler">
+	<label for="toggler" class="fas fa-bars"></label>
+	
+<a href="#" class="logo">Muñecas <span> Lupitas </span> </a>
+
+<nav class="navbar">
+	<a href="#home">Inicio</a>
+	<a href="#about">Acerca de</a>
+	<a href="#products">Productos</a>
+	<a href="#contact">Contactanos</a>
+</nav>
+
+<div class="icons">
+	<a href="#" class="fas fa-heart"></a>
+	<a href="#" class="fas fa-shopping-cart"></a>
+	<a href="#" class="fas fa-user"></a>
+</div>
+
+</header>
+
+	<!-- Fin de la cabecera -->
+
+	<!-- Inicio de homepage -->
+
+<section class="home" id="home">
+
+	<div class="content">
+		<h3>Muñecas hechas</h3>
+		<span> con amor </span>
+		<p>Cada muñeca Lupita es una obra de arte artesanal que captura la esencia de nuestras tradiciones y cultura. Diseñadas con pasión y atención a los detalles, nuestras muñecas son más que un simple regalo, son una expresión de amor.</p>
+		<a href="#" class="btn"> conoce más </a>
+	</div>
+	
+
+</section>
+
+	<!-- Fin de homepage -->
+
+	<!-- Inicio de Acerca de -->
+
+<section class="about" id="about">
+
+	<h1 class="heading"> <span> Acerca de </span> nosotros </h1>
+
+	<div class="row">
+		
+		<div class="video-container">
+			<img src="img/Muñeca_amor.jpg">
+			<h3>Muñecas con amor</h3>
+		</div>
+
+		<div class="content">
+			<h3>¿Quienes somos?</h3>
+			<p>Me llamo Lupita, Nací en un lugar lleno de magia y color llamado El Salvador. Desde el momento en que fui creada por las manos hábiles y cariñosas de las artesanas de mi tierra, supe que mi destino sería llevar alegría y amor a todos los rincones.</p>
+			<a href="#" class="btn">Conoce más</a>
+		</div>
+
+	</div>
+
+</section>
+
+	<!-- Fin de Acerca de -->
+
+	<!-- Inicio de iconos -->
+
+<section class="icons-container">
+
+<!-- Cabeza muñeca-->
+	<div class="icons">
+		<img src="img/muñe.png" alt="muñecas">
+		<div class="info">
+			<h3>Hechas con amor</h3>
+			<span>para la ocacion</span>
+		</div>
+	</div>
+
+<!-- Mundo -->
+	<div class="icons">
+		<img src="img/mundo.png" alt="Muñecas por el mundo">
+		<div class="info">
+			<h3>Nuestras muñecas</h3>
+			<span>por el mundo</span>
+		</div>
+	</div>
+
+<!-- Ubicacion -->
+	<div class="icons">
+		<img src="img/ubicacion.png" alt="Delivery">
+		<div class="info">
+			<h3>Delivery a todo</h3>
+			<span>San Salvador</span>
+		</div>
+	</div>
+
+</section>
+
+	<!-- Fin de iconos -->
+
+	<!-- Inicio de productos -->
+
+<section class="products" id="products">
+
+	<h1 class="heading">Mejores <span>muñecas</span> </h1>
+
+<div class="box-container">
+
+<!-- Mini lupe -->
+	<div class="box">
+		<div class="image">
+			<img src="img/minilupe2.png" alt="Mini lupe">
+			<div class="icons">
+				<a href="#" class="fas fa-heart"></a>
+				<a href="#" class="cart-btn">Añadir a carrito</a>
+				<a href="#" class="fas fa-share"></a>
+			</div>
+		</div>
+		<div class="content">
+			<h3>Mini lupe</h3>
+			<div class="price"> $5.00 </div>
+		</div>
+	</div>
+
+<!-- Lupita -->
+	<div class="box">
+		<div class="image">
+			<img src="img/lupe2.png" alt="Mini lupe">
+			<div class="icons">
+				<a href="#" class="fas fa-heart"></a>
+				<a href="#" class="cart-btn">Añadir a carrito</a>
+				<a href="#" class="fas fa-share"></a>
+			</div>
+		</div>
+		<div class="content">
+			<h3>Lupita</h3>
+			<div class="price"> $15.00 </div>
+		</div>
+	</div>
+
+<!-- chepe -->
+	<div class="box">
+		<div class="image">
+			<img src="img/chepe2.png" alt="Mini lupe">
+			<div class="icons">
+				<a href="#" class="fas fa-heart"></a>
+				<a href="#" class="cart-btn">Añadir a carrito</a>
+				<a href="#" class="fas fa-share"></a>
+			</div>
+		</div>
+		<div class="content">
+			<h3>Chepito</h3>
+			<div class="price"> $15.00 </div>
+		</div>
+	</div>
+
+</div>
+
+</section>
+
+	<!-- Fin de productos -->
+
+	<!-- Inicio de contacto -->
+
+<section class="contact" id="contact">
+
+	<h1 class="heading"> <span> Pide ya </span> tus muñecas </h1>
+
+	<div class="row">
+
+		<form action="">
+
+			<input pattern="[a-zA-Z]+" type="text" placeholder="Nombre" class="box" >
+			<input type="email" placeholder="Correo" class="box">
+			<input type="number" placeholder="Telefono" class="box">
+			<textarea class="box" placeholder="Escribe tu pedido" id="" cols="30" rows="10" ></textarea>
+			<input type="submit" value="Enviar mensaje" class="btn">
+			
+		</form>
+
+		<div class="image">
+			<img src="img/contacto.jpg">
+		</div>
+
+	</div>
+
+</section>
+
+	<!-- Fin de contacto -->
+
+	<!-- Inicio de pie -->
+
+<section class="footer">
+
+	<div class="box-container">
+
+<!-- Punto de venta -->
+		<div class="box">
+			<h3>Puntos de venta</h3>
+			<a href="#">Mayan Gifts Artesanías</a>
+			<a href="#">Nahanché</a>
+			<a href="#">Estilografik</a>
+		</div>
+		
+<!-- Lupitas por el mundo -->
+		<div class="box">
+			<h3>Locaciones</h3>
+			<a href="#">Centro Historico</a>
+			<a href="#">Metrocentro</a>
+			<a href="#">final. 39 a.v. norte, Repto. Nahuizalco</a>
+		</div>
+
+		<!-- contacto -->
+		<div class="box">
+			<h3>Contacto</h3>
+			<a href="#">+503 7989 2408</a>
+			<a href="#">delmytoloza@gmail.com</a>
+			<a href="#">San Salvador, El Salvador</a>
+		</div>
+		
+	</div>
+
+	<div class="credit"> Creado por <span> Fatima Carcamo, Sofia Mayorga, Silvia Castillo, Priscila Alegria </span> | All rights reserved </div>
+	
+</section>
+
+	<!-- Fin de pie -->
+
+
+</body>
+</html>
